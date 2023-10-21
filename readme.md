@@ -19,6 +19,8 @@ This data provides information about a video streaming service company, where th
 - Language: Python
 - Libraries: NumPy, pandas, matplotlib, scikit-learn, pickle, imbalanced-learn (imblearn), LIME
 
+---
+
 ## Approach
 
 1. Importing the required libraries and reading the dataset.
@@ -40,6 +42,8 @@ This data provides information about a video streaming service company, where th
 6. LIME Implementation
     - Define a function for implementing the LIME technique over the dataset.
 
+---
+
 ## Modular Code Overview
 
 1. **input**: Contains all the data for analysis, including a CSV file.
@@ -60,17 +64,16 @@ The `ML_Pipeline` is a folder that contains all the functions put into different
 
 ## Concepts Explored:
 
-1. Introduction to ensemble techniques.
-2. Understanding the working of Random Forest, AdaBoost, and Gradient Boosting algorithms.
-3. Using Python libraries such as matplotlib for data interpretation and advanced visualizations.
-4. Data inspection and cleaning.
-5. Using scikit-learn library to build the Random Forest, AdaBoost, and Gradient Boosting models.
-6. Splitting the dataset into train and test using scikit-learn.
-7. Making predictions using the trained model.
-8. Gaining confidence in the model using metrics such as ROC, AUC, recall, precision, and F1 score.
-9. Handling unbalanced data using the SMOTE method.
-10. Performing feature importance.
-11. Evaluating the ROC curve results across multiple models.
-12. Evaluating the different models with respect to the feature importance results generated.
-13. Understanding the concept of LIME in machine learning.
-14. Implementing the LIME technique on the dataset.
+1. Random Forest, AdaBoost, and Gradient Boosting algorithms.
+2. Matplotlib for data interpretation and advanced visualizations.
+3. Data inspection and cleaning.
+4. Scikit-learn library to build the Random Forest, AdaBoost, and Gradient Boosting models.
+5. Making predictions using the trained model.
+6. Metrics such as ROC, AUC, recall, precision, and F1 score.
+7. Handling unbalanced data using the SMOTE method.
+8. Performing feature importance.
+9. Evaluating the ROC curve results across multiple models.
+10. Implementing the LIME technique on the dataset.
+
+---
+
