@@ -16,8 +16,8 @@ This data provides information about a video streaming service company, where th
 
 ## Tech Stack
 
-- Language: Python
-- Libraries: NumPy, pandas, matplotlib, scikit-learn, pickle, imbalanced-learn (imblearn), LIME
+- Language: `Python`
+- Libraries: `NumP`y, `Pandas`, `Matplotlib`, `scikit-learn`, `pickle`, `imbalanced-learn (imblearn)`, `LIME`
 
 ---
 
@@ -59,21 +59,6 @@ The `ML_Pipeline` is a folder that contains all the functions put into different
     - **ROC_curves**: Contains the ROC curves generated for all three algorithms.
 
 4. **lib**: This is a reference folder. It contains the original IPython notebook that we saw in the videos.
-
----
-
-## Concepts Explored:
-
-1. Random Forest, AdaBoost, and Gradient Boosting algorithms.
-2. Matplotlib for data interpretation and advanced visualizations.
-3. Data inspection and cleaning.
-4. Scikit-learn library to build the Random Forest, AdaBoost, and Gradient Boosting models.
-5. Making predictions using the trained model.
-6. Metrics such as ROC, AUC, recall, precision, and F1 score.
-7. Handling unbalanced data using the SMOTE method.
-8. Performing feature importance.
-9. Evaluating the ROC curve results across multiple models.
-10. Implementing the LIME technique on the dataset.
 
 ---
 
